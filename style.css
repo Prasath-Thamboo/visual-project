@@ -1,0 +1,522 @@
+
+
+
+
+html {
+    --main-color : #34251F;
+    --second-color: white; 
+    --third-color: D1B27F;
+  }
+  
+
+
+body{
+
+    font-family: "FrankRuhlLibre",sans-serif; 
+}
+
+/*---------------Barre de navigation-----------------*/
+
+
+nav{
+    display : flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 1300px;
+    margin: auto;
+   
+}
+
+nav .centre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav .log button {
+    padding: 10px; 
+    background-color: var(--second-color);
+    border-color: var(--main-color);
+    border-style: double;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s;
+}
+nav .log button:active{
+    padding: 15px; 
+    background-color: var(--main-color);
+    color: var(--second-color);
+    transition: 0.5s;
+}
+
+
+nav .logo {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+nav .log button:hover {
+   background-color: var(--main-color);
+   color: var(--second-color);
+   transition: 0.2s;
+   
+}
+
+
+
+nav .menu ul a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    color : var(--main-color); 
+    border-radius: 10px;
+}
+
+nav .menu ul a:hover{
+    background-color: var(--main-color);
+    color : var(--second-color)
+}
+nav .shop{
+    font-size: 25px;
+}
+
+
+
+
+
+/*---------------Header----------------*/
+
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+header .h-l {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header .h-l .log .bouton {
+    font-size: 18px;
+    font-weight: 1000;
+    color: var(--second-color);
+    padding: 20px 50px; 
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    border-style: double;
+    cursor: pointer;
+   
+}
+
+
+
+header .h-l  p{
+    font-size: 22px;
+    padding: 0px 105px 20px 0px;
+}
+
+
+header .h-l  h1{
+    color: var(--main-color);
+    font-size: 82px;
+}
+
+header .h-r{
+    width: 50%;
+}
+
+header .h-r .img{
+    text-align: right;
+   
+}
+
+header .h-r img{
+    width: 70%;
+    border-radius: 200px 0 0 0;
+}
+
+
+/*---------------Section new collection----------------*/
+
+.new-col {
+
+
+}
+
+.new-col h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.new-col p{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.new-col .new-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.new-col .new-products .new-cards {
+    padding : 15px;
+}
+
+.new-col .new-products .new-cards img{
+    width : 350px; 
+    height: 350px; 
+}
+
+.new-col .new-products .new-cards .new-name{
+    background-color: var(--second-color);
+    width: 300px;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
+/*---------------Section Deal----------------*/
+
+
+
+
+.deal {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: auto; 
+    max-width: 1500px;
+    background-color: var(--third-color);
+    border-radius: 10px
+}
+
+.deal .deal-l{
+    width: 50%; 
+    padding: 80px;
+
+}
+.deal .deal-l h1{
+    font-size: 60px;
+    
+}
+.deal .deal-l p{
+    font-size: 35px;
+    color : var(--main-color);
+    
+}
+
+.deal .deal-l .time{
+    width: 90%; 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    margin: auto;
+
+
+}
+
+.deal .deal-l .time-case{
+    width : 120px; 
+    height : 100px; 
+    text-align: center;
+    font-size: 50px;
+    color: var(--main-color);
+    background-color: var(--second-color);
+    font-weight: 600;
+    
+}
+.deal .deal-l .time-case span{
+    font-size: 30;
+}
+
+.deal .deal-l .bouton{
+    padding: 20px 50px; 
+    background-color: var(--main-color);
+    color : var(--second-color);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+.deal .deal-l .bouton::after{
+    padding: 20px 50px; 
+    background-color: var(--main-color);
+    color : var(--second-color);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 1);
+    animation: pulsing 1.4s linear infinite;
+}
+
+/*---------------Section Deal----------------*/
+.societe {
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+
+.societe .imgl img{
+    border-radius: 80px;
+    width: 100%;
+}
+.societe .imgl{
+   padding-right: 30px;
+}
+
+
+
+.societe .text-r h1{
+   font-size: 60px;
+}
+
+.societe .text-r{
+    padding: 20px; 
+}
+
+.societe .text-r p{
+    
+}
+
+.societe .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position : relative; 
+    right: 230px;
+    top: 100px; 
+    gap: 20px;
+    box-shadow: #34251F;
+}
+
+.societe .bottom .infos{
+    width: 200px;
+    height: 100px;
+    background-color: var(--second-color);
+    text-align: center;
+}
+
+.societe .text-r .carre{
+    width: 100px;
+    height: 100px;
+    background-color: var(--main-color);
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+@keyframes pulsing {
+    to{
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}
+
+.deal .deal-r {
+    width: 50%;
+   
+}
+
+.deal .deal-r img{
+    width: 70%;
+    border-radius: 100px;
+   
+}
+
+
+
+
+/*------------------------------------------Footer--------------------------------------*/
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--main-color);
+
+}
+footer .cont-img{
+    width : 500px; 
+    height: 350px; 
+    background-image: url(assets/photo-footer.png);
+    background-position: center;
+}
+footer .photo1  {
+    background-image: url(assets/photo-footer4.png);
+
+}
+footer .photo2  {
+    background-image: url(assets/photo-footer2.png);
+
+}
+footer .photo3  {
+    background-image: url(assets/photo-footer3.png);
+
+}
+footer .photo4 {
+    background-image: url(assets/photo-footer1.png);
+
+}
+
+footer .top{
+    display: flex;
+}
+
+
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .bottom .logo{
+    font-size: 70px;
+    font-weight: 600;
+    color: var(--second-color);
+    padding: 0 100px;
+
+}
+
+footer .bottom .menu ul a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--second-color);
+    font-weight: 700;
+    padding-right: 100px;
+}
+
+
+
+
+footer .rights{
+    text-align: center;
+    color: var(--second-color);
+
+}
+
+footer .insta
+{
+    position: relative;
+    background-color: var(--second-color);
+    width: 400px;
+    text-align: center;
+    bottom: 235px;
+    left: 780px;
+}
+
+footer .insta a p{
+    text-decoration: none;
+    color : black; 
+
+}
+footer .insta span{
+    font-weight: 600;
+}
+
+
+
+
+/***********************************media queries***************************/
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+
+    nav .menu{
+        display: none;
+    }
+    header{
+        padding: 20px 20px 50px 20px;
+        height: 65%;
+    }
+
+    
+    header .h-l {
+        width: 100%;
+    
+    }
+    header .h-l h1{
+        font-size: 50px;
+       
+    }
+    
+    header .h-r .img{
+      display: none;
+    }
+      
+    .deal{
+        flex-wrap: wrap;
+    }
+    .deal .deal-l{
+        width: 100%;
+        padding: 0px;
+    }
+    .deal .deal-l .time{
+        margin: auto;
+     }
+
+    .deal-l{
+        padding: 0;
+    }
+   
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px){
+
+
+    header{
+        padding: 0;
+    }
+    header .h-l {
+        width: 100%;
+        padding: 20px; 
+    }
+    header .h-r img{
+      
+    }
+
+
+
+
+
+
+}
