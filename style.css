@@ -151,10 +151,7 @@ header .h-r img{
 
 /*---------------Section new collection----------------*/
 
-.new-col {
 
-
-}
 
 .new-col h1{
     font-size: 60px;
@@ -303,9 +300,7 @@ header .h-r img{
     padding: 20px; 
 }
 
-.societe .text-r p{
-    
-}
+
 
 .societe .bottom{
     display: flex;
@@ -510,9 +505,7 @@ footer .insta span{
         width: 100%;
         padding: 20px; 
     }
-    header .h-r img{
-      
-    }
+   
 
 
 
