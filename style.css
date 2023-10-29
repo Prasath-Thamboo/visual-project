@@ -505,7 +505,13 @@ footer .insta span{
         width: 100%;
         padding: 20px; 
     }
-   
+   .societe {
+        display: flex; 
+        flex-direction: column;
+    }
+   .societe .bottom{
+    width: 100%
+    }
 
 
 
