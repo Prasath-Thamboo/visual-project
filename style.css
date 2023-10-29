@@ -5,7 +5,7 @@
 html {
     --main-color : #34251F;
     --second-color: white; 
-    --third-color: D1B27F;
+    --third-color: #D1B27F;
   }
   
 
@@ -353,6 +353,40 @@ header .h-r img{
    
 }
 
+.bouton-style{
+    text-align: center;
+}
+
+  .animated-link {
+    --font-size: 36px;
+    font-size: var(--font-size);
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    
+  }
+  .animated-link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: calc(var(--font-size) * 2);
+    height: calc(var(--font-size) * 2);
+    border-radius: calc(var(--font-size));
+    background-color: var(--third-color);
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+    transition: width 0.6s cubic-bezier(.8,0,.24,.99);
+  }
+  
+  .animated-link:hover::before {
+    width: calc(100% + 20%); 
+    /* + 2x le décaalge*/
+  }
+  
+
 
 
 
@@ -447,7 +481,7 @@ footer .insta span{
 
 
 
-/***********************************media queries***************************/
+/***********************************media queries**********************************/
 
 
 
