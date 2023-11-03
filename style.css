@@ -400,25 +400,27 @@ footer{
     background-color: var(--main-color);
 
 }
-footer .cont-img{
-    width : 500px; 
-    height: 350px; 
-    background-image: url(assets/photo-footer.png);
-    background-position: center;
+footer .cont-img img{
+    width : 350px; 
+    height: 350px;
 }
-footer .photo1  {
+
+ .photo1  {
     background-image: url(assets/photo-footer4.png);
 
 }
-footer .photo2  {
+
+ .photo2  {
     background-image: url(assets/photo-footer2.png);
 
 }
-footer .photo3  {
+
+.photo3  {
     background-image: url(assets/photo-footer3.png);
 
 }
-footer .photo4 {
+
+.photo4 {
     background-image: url(assets/photo-footer1.png);
 
 }
