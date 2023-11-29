@@ -10,35 +10,6 @@
     <title>E-commerce</title>
 </head>
 <body>
-    <nav>
-        <div class="log"><button>Connexion</button></div>
-        <div class="centre">
-            <div class="logo">FIFASH</div>
-            <div class="menu">
-                <ul>
-                    <a href="#">Veste</a>
-                    <a href="#">T-shirt</a>
-                    <a href="#">Pantalon</a>
-                    <a href="#">Botte</a>
-                    <a href="#">Pull-Over</a>
-                </ul>
-            </div>
-        </div>
-        <div class="shop"><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></div>
-    </nav>
-    <header>
-        <div class="h-l">
-            <h1>Trouvez Le Meilleur Style</h1>
-            <p>Bienvenue dans notre univers de la mode ! Découvrez des collections captivantes et tendance qui 
-               reflètent votre style unique. Parcourez notre sélection soigneusement conçue et trouvez 
-               les pièces qui feront de chaque jour une occasion de briller.</p>
-            <div class="log"><button class="bouton">COMMANDEZ ICI</button></div>
-        </div>
-        <div class="h-r">
-            <div class="img"><img src="assets/Zing.png" alt="image" ></div>
-        </div>
-    </header>
-
 
     <section class="new-col">
         <h1>Nouvelle Collection </h1>
