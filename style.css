@@ -1,7 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#masthead .site-logo-img .custom-logo-link img {
+    max-width: 300px;
+    margin-left: 70px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+:root {
+ 
+  --first-color: hsl(82, 60%, 28%);
+  --title-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 35%);
+  --body-color: hsl(0, 0%, 95%);
+  --container-color: hsl(0, 0%, 100%);
+
+
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --h2-font-size: 1.25rem;
+  --small-font-size: .813rem;
+}
+
+
+
 html {
     --main-color : #0c1252;
     --second-color: white; 
-    --third-color: #a0138e;
+    --third-color: #16b7cc;
 }
   
 
@@ -11,110 +47,66 @@ body{
     font-family: "FrankRuhlLibre",sans-serif; 
 }
 
-/*-------------Header-------*/ 
+.text-r div p{
+	margin-bottom: 0;
+	text-align: justify;
+}
 
-.contain-second{
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-  }
-  
-  .contain-second h1 a{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    transition: 0.2s;
-  }
-  
-  .contain-second h1 a:hover{
-    
-    color: grey;
-  }
-  
-  .contain-second ul{
-    display: flex; 
-    justify-content: space-between;
-    gap: 30px; 
-    list-style: none;
-  }
-  
-  .contain-second ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    font-weight: 600;
-  }
-  
-  .has-sub-menu .sous-menu{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 180px;
-    transition: .5s;
-    visibility: hidden;
-    opacity: 0;
-    background: grey;
-    padding: 20px;
-  }
-  .has-sub-menu.sous-menu li{
-    border-bottom: solid  black;
-  }
-  
-  .has-sub-menu:hover .sous-menu{
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .005s,visibility 0s 0s;
-  }
+p{
+	margin-bottom: 0;
+}
 
-/*-------------Fin-Header-------*/ 
+/*-------------header-------*/ 
+
+.ast-primary-header-bar {
+    display: block;
+    position: fixed;
+    width: 100%;
+		background-color: #ffffff00;
+    background-image: none;
+		border: none; 
+	
+}
+
+.main-header-bar {
+    padding: 0em 0;
+}
+
+#primary-site-navigation a {
+    color: var(--second-color); 
+		font-size: 20px; 
+}
+
+
+
+
+
+/*-------------FIN-header-------*/ 
+
+
+/*-------------Slider-------*/ 
+
+
+.ast-separate-container .ast-article-post, .ast-separate-container .ast-article-single{
+	padding: 0;
+}
+
+.ast-container, .ast-container-fluid{
+	padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/*-------------Fin-Slider-------*/ 
 
 
 /*---------------Section new collection----------------*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-
-/*=============== VARIABLES CSS ===============*/
-:root {
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(82, 60%, 28%);
-  --title-color: hsl(0, 0%, 15%);
-  --text-color: hsl(0, 0%, 35%);
-  --body-color: hsl(0, 0%, 95%);
-  --container-color: hsl(0, 0%, 100%);
-
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Poppins", sans-serif;
-  --h2-font-size: 1.25rem;
-  --small-font-size: .813rem;
+.new-col h1{
+	text-align: center; 
+	margin-top: 30px
 }
 
-/*========== Responsive typography ==========*/
-@media screen and (min-width: 1120px) {
-  :root {
-    --h2-font-size: 1.5rem;
-    --small-font-size: .875rem;
-  }
-}
-
-/*=============== BASE ===============*/
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/*=============== CARD ===============*/
 .container {
   display: grid;
   place-items: center;
@@ -178,7 +170,7 @@ img {
   text-decoration: underline;
 }
 
-/* Naming animations in hover */
+
 .card__article:hover .card__data {
   animation: show-data 1s forwards;
   opacity: 1;
@@ -197,7 +189,305 @@ img {
   animation: remove-data 1s forwards;
 }
 
-/* Card animation */
+
+
+
+
+
+/*---------------Fin-Section new collection----------------*/
+
+
+
+/*---------------Section société----------------*/
+
+.societe{
+	margin: 20px
+}
+
+.societe h1{
+    text-align:center;
+}
+
+.entry-content h2{
+	margin-bottom: 0;
+}
+
+.societe div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+
+.societe .imgl img{
+    border-radius: 30px;
+    width: 100%;
+}
+.societe .imgl{
+   display: flex; 
+	flex-direction:column; 
+	
+}
+
+.societe .imgl img{
+   width: 300px; 
+}
+
+.societe .text-r{
+  display: flex; 
+	flex-direction: column;
+}
+
+
+.societe .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+}
+
+.societe .bottom .infos{
+    width: 200px;
+    height: 110px;
+    background-color: var(--second-color);
+    text-align: center!important;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px var(--main-color);
+	transition: .3s; 
+	display: flex; 
+	flex-direction: column; 
+}
+.societe .bottom .infos p{
+  
+    text-align: center!important;
+    
+}
+.societe .bottom .infos:hover{
+    box-shadow: 1px 1px 2px var(--third-color);
+}
+
+.societe .text-r .carre{
+    width: 100px;
+    height: 100px;
+    background-color: var(--main-color);
+    position: relative;
+    
+}
+
+
+/*---------------FIN-Section société----------------*/
+
+/*---------------Section Deal----------------*/
+
+
+
+.deal {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: auto; 
+    max-width: 1500px;
+    background-color: var(--main-color);
+    border-radius: 10px; 
+    flex-direction: column;
+	  box-shadow: 2px 2px 10px black;
+}
+
+.deal .deal-l{
+    padding: 40px;
+
+}
+
+.deal .deal-l h1{
+    font-size: 50px;
+    color: var(--second-color)
+    
+}
+
+.deal .deal-l p{
+    font-size: 35px;
+    color : var(--second-color);
+    
+}
+
+.deal .deal-l .time{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+
+.deal .deal-l .time-case{
+    width : 350px; 
+    height : 250px; 
+    text-align: center;
+    font-size: 40px;
+    color: var(--main-color);
+    background-color: var(--second-color);
+    font-weight: 600;
+    border-radius: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+	transition: .1s;
+	border-bottom: 10px solid var(--third-color);
+    
+}
+.deal .deal-l .time-case:hover{
+    color: var(--second-color);
+    background-color: var(--third-color);
+		box-shadow: 2px 2px 10px var(--second-color);
+	border-bottom: 10px solid black;
+}
+
+.deal .deal-l .time-case span{
+    font-size: 30;
+}
+
+.deal .deal-l .bouton{
+    padding: 20px 50px; 
+    background-color: var(--third-color);
+    color : var(--second-color);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px; 
+	transition: .3s
+
+}
+
+.deal .deal-l .bouton:hover{
+    padding: 20px 50px; 
+    background-color: var(--second-color);
+    color : var(--third-color);
+}
+
+.deal .fa-solid {
+	background-color: var(--third-color);
+  border-radius: 500px;
+  padding: 20px;
+	color: var(--second-color);
+}
+.time-case:hover .fa-solid{
+	color: var(--third-color);
+	background-color: var(--second-color);
+}
+
+
+.deal .deal-r .img img{
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.time a {
+	text-decoration:none;
+}
+
+
+/*---------------Fin-Section Deal----------------*/
+
+/*---------------Bouton----------------*/
+
+
+.bouton-style{
+    text-align: center;
+    padding-top: 25px
+}
+
+  .animated-link {
+    --font-size: 36px;
+    font-size: var(--font-size);
+    color: var(--main-color);
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    
+  }
+	  .animated-link:hover {
+    color: var(--second-color);
+  
+    
+  }
+
+  .animated-link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: calc(var(--font-size) * 2);
+    height: calc(var(--font-size) * 2);
+    border-radius: calc(var(--font-size));
+    background-color: var(--third-color);
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+    transition: width 0.6s cubic-bezier(.8,0,.24,.99);
+  }
+  
+  .animated-link:hover::before {
+    width: calc(100% + 20%); 
+    /* + 2x le décaalge*/
+  }
+
+
+  
+
+
+/**********Contact*********/
+
+#wpforms-24863{
+	max-width: 600px; 
+	margin: auto; 
+	margin-top: 20px; 
+	margin-bottom: 20px
+	
+}
+#wpforms-24863 input{
+	background-color: transparent; 
+	border: none;
+	border-bottom: 2px solid black
+	
+}
+
+#wpforms-24863 textarea{
+	background-color: transparent; 
+	border: none;
+	border-bottom: 2px solid black
+	
+}
+#wpforms-24863 button{ 
+	padding: 20px 50px;
+  background-color: var(--third-color);
+  color: var(--second-color);
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  transition: .3s;
+	
+}
+#wpforms-24863 button:hover{ 
+  background-color: var(--second-color);
+  color: var(--third-color);
+  border: 1px solid var(--third-color);
+}
+
+.wpforms-submit-container{
+	text-align: center;
+}
+
+
+
+
+/* ---------Card animation--------  */
+
 @keyframes show-data {
   50% {
     transform: translateY(-10rem);
@@ -235,8 +525,15 @@ img {
   }
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
+
+
+
+
+/***********************************media queries**********************************/
+
+
+
+
 @media screen and (max-width: 340px) {
   .container {
     margin-inline: 1rem;
@@ -248,329 +545,13 @@ img {
   }
 }
 
-/* For medium devices */
+
 @media screen and (min-width: 768px) {
   .card__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.5rem;
   }
 }
-
-/* For large devices */
-@media screen and (min-width: 1120px) {
-  .container {
-    height: 100vh;
-  }
-
-  .card__container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .card__img {
-    width: 348px;
-  }
-  .card__data {
-    width: 316px;
-    padding-inline: 2.5rem;
-  }
-}
-
-
-
-
-
-
-
-/*---------------Section Deal----------------*/
-
-
-
-
-.deal {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    margin: auto; 
-    max-width: 1500px;
-    background-color: var(--main-color);
-    border-radius: 10px; 
-    flex-direction: column;
-}
-
-.deal .deal-l{
-    padding: 10px 80px 80px 80px;
-
-}
-
-.deal .deal-l h1{
-    font-size: 50px;
-    color: var(--second-color)
-    
-}
-
-.deal .deal-l p{
-    font-size: 35px;
-    color : var(--second-color);
-    
-}
-
-.deal .deal-l .time{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 50px;
-    flex-wrap: wrap;
-
-}
-
-.deal .deal-l .time-case{
-    width : 350px; 
-    height : 200px; 
-    text-align: center;
-    font-size: 40px;
-    color: var(--main-color);
-    background-color: var(--second-color);
-    font-weight: 600;
-    border-radius: 20px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    flex-direction: column;
-    box-shadow: 5px 5px 10px #a0138e;
-    
-}
-.deal .deal-l .time-case span{
-    font-size: 30;
-}
-
-.deal .deal-l .bouton{
-    padding: 20px 50px; 
-    background-color: var(--third-color);
-    color : var(--second-color);
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 20px; 
-
-}
-
-
-
-.deal .deal-l .bouton::after{
-    padding: 20px 50px; 
-    background-color: var(--main-color);
-    color : var(--second-color);
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 700;
-    box-shadow: 0 0 0 rgba(255, 255, 255, 1);
-    animation: pulsing 1.4s linear infinite;
-}
-
-.deal .deal-r .img img{
-    margin-bottom: 30px;
-    border-radius: 20px;
-}
-
-
-/*---------------Section société----------------*/
-.societe {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1300px;
-    margin: auto;
-    padding: 20px;
-}
-
-.societe .imgl img{
-    border-radius: 80px;
-    width: 100%;
-}
-.societe .imgl{
-   padding: 20px;
-}
-
-
-
-.societe .text-r h1{
-   font-size: 60px;
-}
-
-.societe .text-r{
-    padding: 20px; 
-    width: 100%;
-    text-align: center;
-}
-
-
-
-.societe .bottom{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    gap: 20px;
-}
-
-.societe .bottom .infos{
-    width: 200px;
-    height: 110px;
-    background-color: var(--second-color);
-    text-align: center;
-    border-radius: 20px;
-    border: 1px solid;
-}
-
-.societe .text-r .carre{
-    width: 100px;
-    height: 100px;
-    background-color: var(--main-color);
-    position: relative;
-    
-}
-
-
-
-
-.bouton-style{
-    text-align: center;
-    padding-top: 25px
-}
-
-  .animated-link {
-    --font-size: 36px;
-    font-size: var(--font-size);
-    color: var(--main-color);
-    text-decoration: none;
-    position: relative;
-    z-index: 1;
-    
-  }
-  .animated-link::before {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: -1;
-    width: calc(var(--font-size) * 2);
-    height: calc(var(--font-size) * 2);
-    border-radius: calc(var(--font-size));
-    background-color: var(--third-color);
-    top: 50%;
-    left: -10%;
-    transform: translateY(-50%);
-    transition: width 0.6s cubic-bezier(.8,0,.24,.99);
-  }
-  
-  .animated-link:hover::before {
-    width: calc(100% + 20%); 
-    /* + 2x le décaalge*/
-  }
-  
-
-
-
-
-/*------------------------------------------Footer--------------------------------------*/
-
-footer{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: var(--main-color);
-
-}
-footer .cont-img img{
-    width : 381px; 
-    height: 381px;
-}
-
- .photo1  {
-    background-image: url(assets/photo-footer4.png);
-
-}
-
- .photo2  {
-    background-image: url(assets/photo-footer2.png);
-
-}
-
-.photo3  {
-    background-image: url(assets/photo-footer3.png);
-
-}
-
-.photo4 {
-    background-image: url(assets/photo-footer1.png);
-
-}
-
-footer .top{
-    display: flex;
-}
-
-
-footer .bottom{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-footer .bottom .logo{
-    font-size: 70px;
-    font-weight: 600;
-    color: var(--second-color);
-    padding: 0 100px;
-    text-align: center;
-
-}
-
-footer .bottom .menu ul a{
-    list-style: none;
-    text-decoration: none;
-    color: var(--second-color);
-    font-weight: 700;
-    padding-right: 100px;
-}
-
-
-
-
-footer .rights{
-    text-align: center;
-    color: var(--second-color);
-
-}
-
-footer .insta
-{
-    position: relative;
-    background-color: var(--second-color);
-    width: 400px;
-    text-align: center;
-    bottom: 235px;
-    left: 780px;
-}
-
-footer .insta a p{
-    text-decoration: none;
-    color : black; 
-
-}
-footer .insta span{
-    font-weight: 600;
-}
-
-
-
-
-/***********************************media queries**********************************/
-
-
-
 
 
 
@@ -618,11 +599,13 @@ footer .insta span{
     .deal .deal-r .img img {
         width: 100%
     }
-
-    .societe{
-        flex-wrap: wrap;
-    }
-
+		.societe div{
+		flex-direction: column; 
+			padding: 10px
+		}
+	.time a {
+	width:100%;
+}
 
 
 
@@ -659,12 +642,54 @@ footer .insta span{
         
     }
    .societe .bottom{
-    width: 100%
+    width: 100%;
+			flex-wrap: wrap;
     }
 
-
-
-
-
-
 }
+
+@media (min-width: 922px) {
+  .ast-container {
+    max-width: none;
+  }
+}
+
+@media (min-width: 993px) {
+  .ast-separate-container #primary, .ast-separate-container.ast-left-sidebar #primary, .ast-separate-container.ast-right-sidebar #primary {
+    margin: 0;
+  }
+}
+
+
+@media screen and (min-width: 1120px) {
+	
+	  :root {
+    --h2-font-size: 1.5rem;
+    --small-font-size: .875rem;
+  }
+	
+  .container {
+    height: 50vh;
+  }
+
+  .card__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card__img {
+    width: 348px;
+  }
+  .card__data {
+    width: 316px;
+    padding-inline: 2.5rem;
+  }
+	
+}
+
+@media screen and (max-width: 1120px) {
+	
+	 .societe h1{
+		margin-top: 20px
+	}
+	
+}
+
