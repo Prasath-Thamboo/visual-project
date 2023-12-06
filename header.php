@@ -1,61 +1,42 @@
-<header>
-  <div class="contain">
-    <div class="contain-first">
-      <div class="bg">
-      <div class="contain-f-social">
-        <a href="#">
-          <div class="menuItems">
-            <i class="fab fa-facebook"></i>
-          </div>
-        </a>
-        <a href="#">
-          <div class="menuItems">
-            <i class="fab fa-twitter"></i>
-          </div>
-        </a>
-        <a href="#">
-          <div class="menuItems">
-              <i class="fa-brands fa-instagram"></i>
-          </div>
-        </a>
-      </div>
-    </div>
-    </div>
-    <div class="contain-second"> 
-      <h1><a href="#">Pergola</a></h1>
+<div class="contain-second"> 
+      <h1><a href="#">PERGOLA</a></h1>
       <div class="menu-header">
         <ul>
           <li class="sub-menu"><a href="#">Accueil</a></li>
-          <li class="has-sub-menu"><a href="#">Jeux vidéos<i class="fa-solid fa-chevron-down"></i></a>
+          <li class="has-sub-menu"><a href="#">Projets <i class="fa-solid fa-chevron-down"></i></a>
             <ul class="sous-menu">
-              <li><a href="#">Mobile</a></li>
-              <li><a href="#">Ordis</a></li>
-              <li><a href="#">Consoles</a></li>
+              <li><a href="#">Rénovation</a></li>
+              <li><a href="#">Construction</a></li>
+              <li><a href="#">Ma Prime Renov</a></li>
+
             </ul>
           </li>
-          <li class="has-sub-menu"><a href="#">Smartphones<i class="fa-solid fa-chevron-down"></i></a>
+          <li class="has-sub-menu"><a href="#">Produits <i class="fa-solid fa-chevron-down"></i></a>
             <ul class="sous-menu">
-              <li><a href="#">Android</a></li>
-              <li><a href="#">Tablette</a></li>
-              <li><a href="#">iOS</a></li>
+              <li><a href="#">Portes d'intérieurs</a></li>
+              <li><a href="#">Placards</a></li>
+              <li><a href="#">Escaliers</a></li>
+              <li><a href="#">Pergolas</a></li>
+              <li><a href="#">Stores</a></li>
+              <li><a href="#">Portes d'entrée</a></li>
+              <li><a href="#">Fenêtres</a></li>
+              <li><a href="#">Portes-fenêtres</a></li>
+              <li><a href="#">Baies</a></li>
+              <li><a href="#">Portails</a></li>
+              <li><a href="#">Volets roulants</a></li>
+              <li><a href="#">Portes de garage</a></li>
+              <li><a href="#">Volets battants</a></li>
+
             </ul>
           </li>
-          <li class="has-sub-menu"><a href="#">Consoles<i class="fa-solid fa-chevron-down"></i></a>
+          <li class="has-sub-menu"><a href="#">Services <i class="fa-solid fa-chevron-down"></i></a>
             <ul class="sous-menu">
-              <li><a href="#">Playstation 5</a></li>
-              <li><a href="#">Xbox Series</a></li>
-              <li><a href="#">Steam Deck</a></li>
+              <li><a href="#">La charte d'excellence</a></li>
+              <li><a href="#">L'accompagnement</a></li>
+              <li><a href="#">Le financement</a></li>
+              <li><a href="#">La pose</a></li>
+
             </ul>
           </li>
-          <li class="has-sub-menu"><a href="#">Ordinateurs<i class="fa-solid fa-chevron-down"></i></a>
-            <ul class="sous-menu">
-              <li><a href="#">PC</a></li>
-              <li><a href="#">Mac</a></li>
-            </ul>
-          </li>
-          <li class="sub-menu"><a href="#">Actualités</a></li>
-        </ul>
       </div>
     </div>
-  </div>
-</header>
