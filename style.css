@@ -435,8 +435,9 @@ p{
     /* + 2x le décaalge*/
   }
 
+/*---------------Fin-Bouton----------------*/
 
-  
+
 
 
 /**********Contact*********/
@@ -483,6 +484,14 @@ p{
 	text-align: center;
 }
 
+/**********Fin-Contact*********/
+
+
+/**********Price*********/
+
+
+
+/**********Fin-Prices*********/
 
 
 
@@ -625,6 +634,7 @@ p{
       }
    
 }
+
 
 @media screen and (max-width: 1200px) and (min-width: 700px){
 
